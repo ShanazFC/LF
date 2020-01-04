@@ -55,9 +55,10 @@
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="#hero">Home</a></li>
                                 <li><a href="#about">About</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#dishes">Dishes</a></li>
-                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#services">Specialties</a></li>
+                                <li><a href="#menu">Menus</a></li>
+                                <li><a href="#offers">Weekly Events</a></li>
+                                <li><a href="#events">Upcoming Events</a></li>
                                 <li><a href="#gallery">Gallery</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
@@ -65,8 +66,6 @@
                     </div>
                 </nav>
             </header><!-- End Navbar -->
-
-
 
             <!-- Hero Section -->
             <section id="hero" class="hero">
@@ -220,7 +219,7 @@
 
 
             <!-- App Section -->
-            <section id="app" class="app">
+            <section id="menu" class="app">
                 <div class="container text-center has-border">
                     <h5>View Our Menus</h5>
                     <ul class="list-unstyled list-inline">
@@ -424,43 +423,13 @@
 
 
 
-            <!-- Begin Contact Sections -->
-            <section id="contact" class="contact">
-                <div id="map"></div>
-                <div class="container text-center">
-                    <div class="form-holder">
-                        <header>
-                            <h2>Contact Us</h2>
-                            <h3>Feel free to contact us</h3>
-                        </header>
-
-                        <form method="get" action="#" id="contact-form">
-                            <div class="row">
-                                <label for="user-name" class="col-sm-6 unique">Name
-                                    <input type="text" name="username" id="user-name" required>
-                                </label>
-                                <label for="user-email" class="col-sm-6 unique">Email
-                                    <input type="email" name="useremail" id="user-email" required>
-                                </label>
-                                <label for="message" class="col-sm-12 unique">Your Message
-                                    <textarea name="message" id="message" required></textarea>
-                                </label>
-                                <div class="col-sm-12">
-                                    <button type="submit" class="btn-unique" id="submit">Send</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <!-- End Booking Section -->
 
 
             <!-- Footer -->
             <footer id="mainFooter" class="mainFooter">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 brief">
+                        <div class="col-md-4">
                             <div class="header">
                                 <h6> About Us </h6>
                             </div>
@@ -472,11 +441,9 @@
                                 <h6>Find Us</h6>
                             </div>
                             <ul class="contact list-unstyled">
-                                <li><span class="icon-map text-primary"></span>1222  King Street</li>
-                                <li><span class="icon-map text-primary"></span>Alexandria, VA 22314</li>
-                                <!-- <li><a href="mailto:Italiano@Company.com"><span class="icon-phone text-primary"></span>Italiano@Company.com</a></li>
-                                <li><span class="icon-mail text-primary"></span>9465 7675 294</li>
-                                <li><span class="icon-printer text-primary"></span>333-999-666</li> -->
+                                <li><a href="https://www.google.com/maps/place/La+Fromagerie+Cheese+and+Wine+Bistro/@38.8058002,-77.0555788,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b0ff7f19f1f1:0x5eff2830c2aec5ad!8m2!3d38.8058002!4d-77.0533901" target="_blank">1222  King Street
+                                <br>Alexandria, VA 22314</a></li>
+                                <li><a href="tel:703-879-2467">(703) 879-2467</a></li>
                             </ul>
                         </div>
 
@@ -484,7 +451,7 @@
                             <div class="header">
                                 <h6>Follow Us</h6>
                             </div>
-                            <ul class=" list-inline">
+                            <ul class="list-inline social">
                               <li><a href="https://www.facebook.com/lafromagerieoldtown/" title="facebook" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                               <li><a href="https://twitter.com/lafromagerieVA" title="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
                               <li><a href="https://open.spotify.com/playlist/57PahrJ3b5JYejQtBWlyD1" title="pinterest" target="_blank"><i class="fab fa-spotify"></i></a></li>
@@ -501,12 +468,11 @@
                                 <ul class="list-unstyled list-inline">
                                     <li><a href="#">Policy Privacy</a></li>
                                     <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-sm-7">
-                                <p>&copy; 2017 Italiano Restaurant. Template By <a href="https://bootstraptemple.com/" target="_blank">BootstrapTemple.com</a></p>
+                                <p>&copy; 2020 Italiano Restaurant Template via <a href="https://bootstraptemple.com/" target="_blank">BootstrapTemple.com</a>. Made with <i class="fas fa-heart"></i> by <a href="https://www.shanaz.co" target="_blank">Shanaz Chowdhery</a></p>
                                 <!-- Please do not remove the backlink to us unless you have purchased the attribution-free license at https://bootstraptemple.com. It is part of the license conditions. Thanks for understanding :) -->
                             </div>
                         </div>
@@ -527,7 +493,6 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.ba-cond.min.js"></script>
         <script src="js/jquery.slitslider.min.js"></script>
-        <script src="https://kit.fontawesome.com/65391ef095.js" crossorigin="anonymous"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/lightbox.min.js"></script>
         <script src="js/datepicker.min.js"></script>
@@ -536,6 +501,7 @@
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/smooth.scroll.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/65391ef095.js" crossorigin="anonymous"></script>
 
     </body>
 </html>

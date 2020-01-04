@@ -789,7 +789,7 @@ section.services .service .icon i {
    App Section
    ========================================== */
 section.app {
-  padding: 0;
+  padding: 50px;
 }
 section.app .container {
   color: #fff;
@@ -1127,10 +1127,10 @@ section.contact .form-holder form {
    ========================================== */
 footer {
   background: #222222;
-  padding: 150px 0 0;
 }
+
 footer .header {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 footer .header h6 {
   font-size: 1.3em;
@@ -1146,11 +1146,11 @@ footer .header h6::after {
   background: #80321C;
 }
 footer p {
-  color: #555555;
+  color: #fff;
 }
 footer ul.contact a,
 footer ul.contact li {
-  color: #555555;
+  color: #fff;
   letter-spacing: 1px;
   margin: 5px 0;
 }
@@ -1186,9 +1186,10 @@ footer .newsletter form button[type=email] {
   padding: 0 20px;
 }
 footer ul.social {
-  text-align: center;
-  margin: 50px 0 100px;
+  /* text-align: center; */
+  font-size: 1.5em;
 }
+
 footer ul.social a {
   color: #fff;
 }
@@ -1199,12 +1200,18 @@ footer .copyrights {
   padding: 30px 0;
   background: #1e1e1e;
 }
+
 footer .copyrights ul {
   margin-bottom: 0;
 }
+
 footer .copyrights ul a {
   color: #444444;
   font-size: 0.9em;
+}
+
+footer .copyrights p a {
+  color: #444444;
 }
 footer .copyrights ul a:hover {
   color: #80321C;
@@ -1212,9 +1219,10 @@ footer .copyrights ul a:hover {
 footer .copyrights p {
   font-size: 0.9em;
   text-align: right;
+  color: #444444;
 }
 footer .copyrights p a:hover {
-  color: #fff;
+  color: #80321C;
 }
 @media (max-width: 768px) {
   footer .copyrights div[class*='col-'] {
@@ -1222,6 +1230,8 @@ footer .copyrights p a:hover {
     margin-bottom: 10px;
   }
 }
+
+
 /* ==========================================
    SCROLL TOP BUTTON
    ========================================== */
