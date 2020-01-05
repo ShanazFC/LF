@@ -7,7 +7,7 @@ to-do
 - set up contact us page to work
 - move contact us to a separate page
 - create terms of use and privacy policy
-
+- flip the soup image 
 
 features
 - possible to do a "featured wines"
