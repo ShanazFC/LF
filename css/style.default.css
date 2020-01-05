@@ -751,7 +751,7 @@ section.about {
   background: #f9f9f9;
   position: relative;
 }
-section.about::before {
+section.events::before {
   content: '';
   display: block;
   background-position: center center;
