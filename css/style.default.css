@@ -748,7 +748,7 @@ section.details .row > div:last-of-type a.reviews i {
    About Section
    ========================================== */
 section.about {
-  margin-top: 70px;
+  margin-top: 100px;
   background: #f9f9f9;
   position: relative;
 }
